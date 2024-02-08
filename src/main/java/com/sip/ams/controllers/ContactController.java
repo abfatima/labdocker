@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 public class ContactController {
 
-	@RequestMapping("/contact")
+	@GetMapping("/contact")
 	public String contact() {
 
 		return "dashboard/contact";
