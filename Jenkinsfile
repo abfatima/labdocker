@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        maven 'maven'
-    }
-
     stages {
     
         stage('Salutation à tout le monde devops') {
